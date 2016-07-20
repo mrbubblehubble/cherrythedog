@@ -91,8 +91,8 @@ fs.readFile('./stream-example.html', function(err, html) {
 
 
 
-console.log('Listening for MPEG Stream on http://yourserversip:'+STREAM_PORT+'/<secret>/<width>/<height>');
-console.log('Awaiting WebSocket connections on ws://yourserversip:'+WEBSOCKET_PORT+'/');
+console.log('Listening for MPEG Stream on http://192.241.147.209:'+STREAM_PORT+'/<secret>/<width>/<height>');
+console.log('Awaiting WebSocket connections on ws://192.241.147.209:'+WEBSOCKET_PORT+'/');
 
 
 
